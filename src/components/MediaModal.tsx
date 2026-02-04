@@ -3,7 +3,7 @@ import MediaViewer from './MediaViewer';
 
 interface MediaItem {
   url: string;
-  caption?: string;
+  caption?: string | null;
   credit?: string;
   type?: 'image' | '3d';
   modelUrl?: string;

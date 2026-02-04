@@ -1,6 +1,6 @@
 export interface ImageData {
   url: string;
-  caption: string;
+  caption?: string | null;
   credit?: string;
 }
 
