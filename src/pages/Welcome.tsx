@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { Search, BookOpen, Compass, Users } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { getSiteData, getAllSources } from '../services/dataService';
 import SourceCard from '../components/SourceCard';
 
@@ -9,6 +9,19 @@ export default function Welcome() {
   const navigate = useNavigate();
   const siteData = getSiteData();
   const featuredSources = getAllSources().slice(0, 4);
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
+  // Keyboard shortcut "/" to focus search
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === '/' && document.activeElement?.tagName !== 'INPUT' && document.activeElement?.tagName !== 'TEXTAREA') {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+      }
+    };
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -56,18 +69,22 @@ export default function Welcome() {
             <form onSubmit={handleSearch} className="max-w-xl mx-auto">
               <div className="relative">
                 <input
+                  ref={searchInputRef}
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   placeholder="Search the collection..."
-                  className="w-full px-6 py-4 rounded-full text-gray-900 text-lg focus:outline-none focus:ring-4 focus:ring-[var(--oxford-gold)]/50"
+                  className="w-full px-6 py-4 pr-24 rounded-full bg-white text-gray-900 placeholder-gray-500 text-lg focus:outline-none focus:ring-4 focus:ring-[var(--oxford-gold)]/50"
                 />
-                <button
-                  type="submit"
-                  className="absolute right-2 top-1/2 -translate-y-1/2 bg-[var(--oxford-blue)] text-white p-3 rounded-full hover:bg-[var(--oxford-gold)] hover:text-[var(--oxford-blue)] transition-colors"
-                >
-                  <Search size={20} />
-                </button>
+                <div className="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-2">
+                  <kbd className="hidden sm:inline-block px-2 py-1 text-xs font-mono bg-gray-200 text-gray-600 rounded">/</kbd>
+                  <button
+                    type="submit"
+                    className="bg-[var(--oxford-blue)] text-white p-3 rounded-full hover:bg-[var(--oxford-gold)] hover:text-[var(--oxford-blue)] transition-colors"
+                  >
+                    <Search size={20} />
+                  </button>
+                </div>
               </div>
             </form>
           </div>
