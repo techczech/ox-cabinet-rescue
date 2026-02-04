@@ -1,0 +1,3 @@
+# Disallow all search engines - this is a prototype demonstration site
+User-agent: *
+Disallow: /

@@ -1,7 +1,7 @@
 export interface ImageData {
   url: string;
   caption: string;
-  credit: string;
+  credit?: string;
 }
 
 export interface Model3D {
