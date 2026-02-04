@@ -1,0 +1,25 @@
+{
+  "id": "elias-ashmole",
+  "slug": "elias-ashmole",
+  "title": "Elias Ashmole",
+  "description": "A portrait of Elias Ashmole (c.1681-82) by John Riley, depicting him as an antiquary, government official, collector, and alchemy student. Ashmole presented his collections to Oxford University in 1677, including coins, manuscripts, and the Tradescant collection of natural and artificial curiosities. The magnificent frame is the work of Grinling Gibbons (1648-1721), the most celebrated wood carver in England.",
+  "sourceType": "Oil on Canvas",
+  "tags": ["portrait", "ashmolean", "collecting", "17th century"],
+  "primarySource": "Ashmolean Museum, University of Oxford",
+  "images": [
+    {
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145912.jpg",
+      "caption": "Portrait of a Man ('The Auctioneer'), follower of Rembrandt, c. 1658-62 - Representative 17th century portrait (original Ashmole portrait at Ashmolean Museum)",
+      "credit": "The Metropolitan Museum of Art, Open Access - Original at Ashmolean Museum (WA1898.36)"
+    }
+  ],
+  "unit": "Natural history and collecting",
+  "paper": "The Scientific Movement of the 17th Century",
+  "date": "c.1681-82",
+  "medium": "Oil on canvas",
+  "dimensions": "124 x 101 cm",
+  "accessionId": "WA1898.36",
+  "scrapedFromCabinet": true,
+  "imageSource": "met_museum_open_access",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/elias-ashmole-0"
+}

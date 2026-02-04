@@ -1,0 +1,46 @@
+{
+  "name": "Cabinet",
+  "tagline": "An online platform for teaching about material culture",
+  "description": "Cabinet features high-resolution 2D images and 3D models of objects from coins to monuments, sourced from Oxford's collections and integrated with IIIF-compliant resources from cultural institutions worldwide. The platform provides tools for digital object 'handling', annotation, and discussion designed to work across computers and mobile devices, supporting a rich, interactive learning environment.",
+  "team": {
+    "current": [
+      {
+        "name": "Prof Kathryn Eccles",
+        "role": "Associate Professor and Senior Research Fellow",
+        "affiliation": "Oxford Internet Institute"
+      },
+      {
+        "name": "Prof Howard Hotson",
+        "role": "Professor of Early Modern Intellectual History",
+        "affiliation": "Faculty of History, University of Oxford"
+      },
+      {
+        "name": "Charles Matz",
+        "role": "Strategic Lead and Researcher",
+        "affiliation": "Oxford Internet Institute"
+      }
+    ],
+    "past": [
+      "Dr Silke Ackermann",
+      "Jamie Cameron",
+      "Dr Sarah Griffin",
+      "Dr Giovanna Vitelli",
+      "Dr Erin Young",
+      "Ted Koterwas"
+    ]
+  },
+  "partners": [
+    "ITS (Information Technology Services)",
+    "Oxford Internet Institute (OII)",
+    "University of Oxford",
+    "GLAM (Galleries, Libraries, Archives, and Museums)"
+  ],
+  "navigation": [
+    { "label": "Welcome", "path": "/" },
+    { "label": "Explore", "path": "/explore" },
+    { "label": "Discover", "path": "/discover" },
+    { "label": "Exhibitions", "path": "/exhibitions" },
+    { "label": "About", "path": "/about" },
+    { "label": "Contact", "path": "/contact" }
+  ]
+}

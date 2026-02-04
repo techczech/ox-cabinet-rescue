@@ -1,0 +1,22 @@
+{
+  "id": "rhinoceros-horn-cup",
+  "slug": "rhinoceros-horn-cup",
+  "title": "Rhinoceros-Horn Cup",
+  "description": "[MOCK DATA - description invented for prototype] Rhinoceros horn cups were prized luxury objects. Cabinet lists this item with links to the Ashmolean Museum Tradescant collection.",
+  "sourceType": "Decorative Object",
+  "tags": ["luxury goods", "trade", "chinese art", "collecting"],
+  "primarySource": "Ashmolean Museum - via Cabinet",
+  "images": [
+    {
+      "url": "https://images.metmuseum.org/CRDImages/as/original/TR_193_2_2012_Strm1_01.jpg",
+      "caption": "Cup in Shape of Rhinoceros Horn, Qing dynasty (1644-1911), China, 18th century",
+      "credit": "The Metropolitan Museum of Art, Open Access"
+    }
+  ],
+  "unit": "Global Trade and Luxury",
+  "paper": "Material Culture of Exchange",
+  "date": "18th century",
+  "isMockData": true,
+  "imageSource": "met_museum_open_access",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/rhinoceros-horn-cup"
+}

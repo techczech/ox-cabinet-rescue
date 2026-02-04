@@ -1,0 +1,28 @@
+{
+  "id": "pakhtakhor-monument",
+  "slug": "pakhtakhor-79-monument",
+  "title": "The Pakhtakhor-79 Monument (Uzbekistan/Ukraine)",
+  "exhibitionId": "soviet-central-asia",
+  "country": "Uzbekistan",
+  "objectType": "Monument",
+  "tags": ["sports", "football", "monument", "uzbekistan", "ukraine", "tragedy"],
+  "description": "[MOCK DATA - title scraped from Cabinet, description invented] A monument commemorating the tragic 1979 air crash of the Pakhtakhor Tashkent football team.",
+  "commentary": "[MOCK DATA] The Pakhtakhor-79 monument commemorates one of the most tragic events in Soviet football history.",
+  "author": {
+    "name": "Exhibition Contributors",
+    "bio": "Soviet Central Asia in 100 Objects research team"
+  },
+  "provenance": "Public monument, Tashkent",
+  "images": [
+    {
+      "url": "https://picsum.photos/seed/pakhtakhor/800/600",
+      "caption": "[PLACEHOLDER] Pakhtakhor-79 Memorial",
+      "credit": "Placeholder image"
+    }
+  ],
+  "date": "1979",
+  "references": [],
+  "isMockData": true,
+  "imageSource": "placeholder",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/pakhtakhor-79-monument-uzbekistanukraine-1"
+}

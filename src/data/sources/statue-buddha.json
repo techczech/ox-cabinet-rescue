@@ -1,0 +1,22 @@
+{
+  "id": "statue-buddha",
+  "slug": "statue-buddha",
+  "title": "Statue of Buddha",
+  "description": "[MOCK DATA - description invented for prototype] Buddhist statuary. Cabinet lists this in search results but full details were not scraped.",
+  "sourceType": "Sculpture",
+  "tags": ["buddhism", "sculpture", "asian art", "religion"],
+  "primarySource": "Cabinet reference - details not fully scraped",
+  "images": [
+    {
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP123367.jpg",
+      "caption": "Standing Buddha, schist sculpture from ancient Gandhara region (Pakistan), 3rd-4th century",
+      "credit": "The Metropolitan Museum of Art, Open Access"
+    }
+  ],
+  "unit": "Religious Art",
+  "paper": "Asian Art and Culture",
+  "date": "3rd-4th century",
+  "isMockData": true,
+  "imageSource": "met_museum_open_access",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/statue-buddha-0"
+}

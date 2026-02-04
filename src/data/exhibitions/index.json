@@ -1,0 +1,12 @@
+{
+  "exhibitions": [
+    {
+      "id": "soviet-central-asia",
+      "slug": "soviet-central-asia-100-objects",
+      "title": "Soviet Central Asia in 100 Objects",
+      "shortDescription": "Histories of Soviet Central Asia through material objects",
+      "status": "ongoing",
+      "objectCount": 70
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pickled-cucumbers",
+  "slug": "pickled-cucumbers-kyrgyzstan",
+  "title": "Pickled Cucumbers (Kyrgyzstan)",
+  "exhibitionId": "soviet-central-asia",
+  "country": "Kyrgyzstan",
+  "objectType": "Food/Cultural artifact",
+  "tags": ["food", "preservation", "soviet life", "kyrgyzstan"],
+  "description": "Pickled cucumbers represent a significant Soviet practice for food storage that spread to Central Asia in the 1960s. Pickling was a widely-used way of storing food in the USSR, playing an important role in mitigating shortages.",
+  "commentary": "A three-liter jar of pickled cucumbers inspired by the author's grandmother Dilar's 1960s recipe. Pickling represented a new practice brought by socialism, replacing traditional drying and curing methods. Families engaged in competitive canning, with some preserving hundreds of jars annually. The practice created social rituals and home-based production teams. Pickled foods transcended national cuisine boundaries and helped families survive Soviet shortages.",
+  "author": {
+    "name": "Asel Murzakulova",
+    "bio": "Research Fellow at University of Central Asia's Mountain Societies Research Institute; expertise includes rural migration, cross-border conflicts, and post-socialist infrastructure in Kyrgyzstan."
+  },
+  "provenance": "Family collection",
+  "images": [
+    {
+      "url": "https://picsum.photos/seed/pickles/800/600",
+      "caption": "[PLACEHOLDER] Jar of pickled cucumbers",
+      "credit": "Placeholder image"
+    }
+  ],
+  "date": "1960s-present",
+  "references": [
+    "Aaly Alymbaeva, A. (2020) on Central Asian food and national identity",
+    "Kamp, M. (2019) on hunger, potatoes, and the 1933 Uzbekistan famine"
+  ],
+  "scrapedFromCabinet": true,
+  "imageSource": "placeholder",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/pickled-cucumbers-kyrgyzstan-3"
+}

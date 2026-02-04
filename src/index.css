@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+:root {
+  --oxford-blue: #002147;
+  --oxford-gold: #c7a459;
+  --cabinet-warm: #f5f0e6;
+  --cabinet-dark: #2c2c2c;
+}

@@ -1,0 +1,22 @@
+{
+  "id": "albrecht-durer-erasmus",
+  "slug": "albrecht-durer-erasmus-rotterdam-1526",
+  "title": "Albrecht Dürer, Erasmus of Rotterdam (1526)",
+  "description": "[MOCK DATA - description invented for prototype] This engraved portrait by Albrecht Dürer depicts Erasmus. Cabinet lists this item in search results.",
+  "sourceType": "Engraving",
+  "tags": ["durer", "erasmus", "portrait", "renaissance", "humanism"],
+  "primarySource": "Cabinet reference - details not fully scraped",
+  "images": [
+    {
+      "url": "https://images.metmuseum.org/CRDImages/dp/original/DP815934.jpg",
+      "caption": "Erasmus of Rotterdam, engraving by Albrecht Dürer, 1526",
+      "credit": "The Metropolitan Museum of Art, Open Access"
+    }
+  ],
+  "unit": "Humanist Portraits",
+  "paper": "Renaissance Visual Culture",
+  "date": "1526",
+  "isMockData": true,
+  "imageSource": "met_museum_open_access",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/albrecht-d-rer-erasmus-rotterdam-1526"
+}

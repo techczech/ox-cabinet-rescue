@@ -1,0 +1,28 @@
+{
+  "id": "quran-translation",
+  "slug": "quran-translation-tarazi",
+  "title": "Translation of the Qu'ran by Sayyid Mahmud Tarazi (Uzbekistan/India)",
+  "exhibitionId": "soviet-central-asia",
+  "country": "Uzbekistan",
+  "objectType": "Religious text",
+  "tags": ["religion", "islam", "translation", "uzbekistan", "india"],
+  "description": "[MOCK DATA - title scraped from Cabinet, description invented] A significant translation of the Qu'ran bridging Central Asian and South Asian Islamic scholarship.",
+  "commentary": "[MOCK DATA] This translation represents scholarly networks connecting Central Asian Muslims with the broader Islamic world.",
+  "author": {
+    "name": "Exhibition Contributors",
+    "bio": "Soviet Central Asia in 100 Objects research team"
+  },
+  "provenance": "Academic collection",
+  "images": [
+    {
+      "url": "https://picsum.photos/seed/quran/800/600",
+      "caption": "[PLACEHOLDER] Qu'ranic manuscript",
+      "credit": "Placeholder image"
+    }
+  ],
+  "date": "20th century",
+  "references": [],
+  "isMockData": true,
+  "imageSource": "placeholder",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/translation-quran-sayyid-mahmud-tarazi-uzbekistanindia-1"
+}

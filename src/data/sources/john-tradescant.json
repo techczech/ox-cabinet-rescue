@@ -1,0 +1,22 @@
+{
+  "id": "john-tradescant-elder",
+  "slug": "john-tradescant-elder",
+  "title": "John Tradescant the Elder",
+  "description": "[MOCK DATA - description invented for prototype] John Tradescant the Elder (c. 1570-1638) was an English naturalist, gardener, and collector. Cabinet has content about the Tradescants in the context of natural history and collecting.",
+  "sourceType": "Portrait",
+  "tags": ["tradescant", "collecting", "natural history", "17th century"],
+  "primarySource": "Cabinet reference - details not fully scraped",
+  "images": [
+    {
+      "url": "https://images.metmuseum.org/CRDImages/dp/original/DP826905.jpg",
+      "caption": "Portrait of a 17th century gentleman collector (representative image - not John Tradescant)",
+      "credit": "The Metropolitan Museum of Art, Open Access"
+    }
+  ],
+  "unit": "Natural history and collecting",
+  "paper": "The Scientific Movement of the 17th Century",
+  "date": "c. 1570-1638",
+  "isMockData": true,
+  "imageSource": "met_museum_open_access",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/john-tradescant-elder"
+}

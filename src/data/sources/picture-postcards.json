@@ -1,0 +1,22 @@
+{
+  "id": "picture-postcards",
+  "slug": "picture-postcards",
+  "title": "Picture Postcards",
+  "description": "[MOCK DATA - description invented for prototype] Picture postcards emerged as a popular form of communication in the late 19th century. The Private Mailing Card Act of 1898 allowed independent companies to publish postcards for the first time. By the end of the 19th century, these often decorative cards were highly esteemed and avidly collected.",
+  "sourceType": "Ephemera",
+  "tags": ["postcards", "ephemera", "communication", "collecting"],
+  "primarySource": "Cabinet reference - see Jefferson R. Burdick Collection at The Met for similar examples",
+  "images": [
+    {
+      "url": "https://images.metmuseum.org/CRDImages/dp/original/DP885318.jpg",
+      "caption": "Trade Card for Alexander Muir, Engraver - 19th century British commercial lithograph (representative example)",
+      "credit": "The Metropolitan Museum of Art, Open Access"
+    }
+  ],
+  "unit": "Visual Culture",
+  "paper": "Material Culture Studies",
+  "date": "Late 19th century",
+  "isMockData": true,
+  "imageSource": "met_museum_open_access",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/picture-postcards"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "astrolabe-demo",
+  "slug": "astrolabe-demo",
+  "title": "[DEMO] Astrolabe - 3D Viewer Example",
+  "description": "THIS IS DEMO CONTENT FOR PROTOTYPE PURPOSES. This example shows how 3D models could be integrated into Cabinet. The actual Cabinet website references astrolabes from the Museum of the History of Science, Oxford, but this specific content and 3D model are placeholders to demonstrate the viewer functionality.",
+  "sourceType": "Demo Content",
+  "tags": ["demo", "3d-example", "placeholder"],
+  "primarySource": "Demo - Not from Cabinet",
+  "images": [
+    {
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP170386.jpg",
+      "caption": "Astrolabe of 'Umar ibn Yusuf, Yemen, dated A.H. 690 / A.D. 1291 - Representative image from Met Museum",
+      "credit": "The Metropolitan Museum of Art, Open Access"
+    }
+  ],
+  "model3d": {
+    "url": "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
+    "caption": "[DEMO] Placeholder 3D model (Astronaut) to demonstrate viewer - not actual Cabinet content",
+    "credit": "Google Model Viewer Demo Assets"
+  },
+  "unit": "Demo Content",
+  "paper": "Prototype Demonstration",
+  "date": "2024 (Demo)",
+  "isMockData": true,
+  "imageSource": "met_museum_open_access"
+}

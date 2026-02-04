@@ -1,0 +1,104 @@
+{
+  "sources": [
+    "flea",
+    "elias-ashmole",
+    "calendrical-complications",
+    "camera-obscura",
+    "xylography",
+    "john-tradescant",
+    "picture-postcards",
+    "rhinoceros-horn-cup",
+    "albrecht-durer-erasmus",
+    "statue-buddha",
+    "astrolabe"
+  ],
+  "sourceTypes": [
+    "All",
+    "Engraving",
+    "Oil on Canvas",
+    "Commentary",
+    "Optical Instrument",
+    "Historical Analysis",
+    "Portrait",
+    "Ephemera",
+    "Decorative Object",
+    "Sculpture",
+    "Scientific Instrument"
+  ],
+  "tags": [
+    "micrographia",
+    "robert hooke",
+    "insect images",
+    "microscopy",
+    "portrait",
+    "ashmolean",
+    "collecting",
+    "17th century",
+    "astronomy",
+    "medieval",
+    "calendar",
+    "timekeeping",
+    "optics",
+    "renaissance",
+    "art",
+    "science",
+    "printing",
+    "xylography",
+    "typography",
+    "tradescant",
+    "natural history",
+    "postcards",
+    "ephemera",
+    "communication",
+    "luxury goods",
+    "trade",
+    "chinese art",
+    "durer",
+    "erasmus",
+    "humanism",
+    "buddhism",
+    "sculpture",
+    "asian art",
+    "religion",
+    "astrolabe",
+    "scientific instrument",
+    "navigation"
+  ],
+  "papers": [
+    {
+      "id": "scientific-movement",
+      "title": "The Scientific Movement of the 17th Century",
+      "units": ["New homes for the new science", "Natural history and collecting"]
+    },
+    {
+      "id": "global-networks",
+      "title": "Global Networks of Innovation: China, Islam and the West, 1100-1700",
+      "units": ["Reinventing Time", "Paper and Printing"]
+    },
+    {
+      "id": "nature-art-renaissance",
+      "title": "Nature and Art in the Renaissance",
+      "units": ["Painting and perspective: craft, art and science"]
+    },
+    {
+      "id": "material-culture",
+      "title": "Material Culture Studies",
+      "units": ["Visual Culture"]
+    },
+    {
+      "id": "material-exchange",
+      "title": "Material Culture of Exchange",
+      "units": ["Global Trade and Luxury"]
+    },
+    {
+      "id": "renaissance-visual",
+      "title": "Renaissance Visual Culture",
+      "units": ["Humanist Portraits"]
+    },
+    {
+      "id": "asian-art",
+      "title": "Asian Art and Culture",
+      "units": ["Religious Art"]
+    }
+  ]
+}

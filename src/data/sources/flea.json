@@ -1,0 +1,22 @@
+{
+  "id": "flea",
+  "slug": "flea",
+  "title": "Flea",
+  "description": "Robert Hooke's detailed microscopic observation of a flea from his seminal work Micrographia (1665). Hooke describes the creature's remarkable physical structure, noting 'the strength and beauty of this small creature' and documenting its articulated legs, protective armor-like exoskeleton, sensory organs, and feeding apparatus with precision that remains impressive by modern standards.",
+  "sourceType": "Engraving",
+  "tags": ["micrographia", "robert hooke", "insect images", "microscopy"],
+  "primarySource": "Robert Hooke, Micrographia: or, Some physiological descriptions of minute bodies made by magnifying glasses (London: J. Martyn and J. Allestry, 1665), pp. 210-11. (Observation 53)",
+  "images": [
+    {
+      "url": "https://images.pdimagearchive.org/essays/more-lively-counterfaits/hooke-flea.jpg",
+      "caption": "Plate 34 - Robert Hooke's famous flea engraving from Micrographia (1665)",
+      "credit": "Public Domain - National Library of Wales / Wellcome Collection"
+    }
+  ],
+  "unit": "New homes for the new science",
+  "paper": "The Scientific Movement of the 17th Century",
+  "date": "1665",
+  "scrapedFromCabinet": true,
+  "imageSource": "public_domain_archive",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/flea"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "calendrical-complications",
+  "slug": "calendrical-complications",
+  "title": "Calendrical Complications",
+  "description": "Medieval societies faced the challenge of reconciling astronomical and ecclesiastical timekeeping systems. The fundamental problem: 'There are not a whole number of lunar months in a solar year.' Determining the date of church holy days often involved combining solar, lunar, and ecclesiastical cycles. Easter's calculation exemplifies this complexity: 'the first Sunday after the first full moon following the spring equinox.'",
+  "sourceType": "Commentary",
+  "tags": ["astronomy", "medieval", "calendar", "timekeeping"],
+  "primarySource": "Commentary by Howard Hotson (June 2025)",
+  "images": [
+    {
+      "url": "https://images.metmuseum.org/CRDImages/es/original/DP353268.jpg",
+      "caption": "Astronomical table clock by Jeremias Metzger, Augsburg, 1568 - showing astronomical and calendrical mechanisms",
+      "credit": "The Metropolitan Museum of Art, Open Access"
+    }
+  ],
+  "unit": "Reinventing Time",
+  "paper": "Global Networks of Innovation: China, Islam and the West, 1100-1700",
+  "date": "1472",
+  "scrapedFromCabinet": true,
+  "imageSource": "met_museum_open_access",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/calendrical-complications"
+}

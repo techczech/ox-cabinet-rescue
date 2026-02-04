@@ -1,0 +1,71 @@
+{
+  "id": "soviet-central-asia",
+  "slug": "soviet-central-asia-100-objects",
+  "title": "Soviet Central Asia in 100 Objects",
+  "description": "This project presents histories of Soviet Central Asia through material objects. Inspired by Neil MacGregor's curatorial approach, it brings together scholars from around the world to tell the stories of everyday life, culture, and change in the Soviet-era Central Asian republics.",
+  "descriptionRussian": "Этот проект представляет истории Советской Центральной Азии через материальные объекты.",
+  "status": "ongoing",
+  "targetCount": 100,
+  "currentCount": 70,
+  "languages": ["english", "russian"],
+  "parts": [
+    {
+      "id": "english-part-i",
+      "title": "Enter the Exhibition (English) Part I",
+      "language": "english",
+      "objectIds": ["gul-yaka", "pickled-cucumbers", "quran-translation", "pakhtakhor-monument"]
+    },
+    {
+      "id": "english-part-ii",
+      "title": "Enter the Exhibition (English) Part II",
+      "language": "english",
+      "objectIds": []
+    },
+    {
+      "id": "russian-part-i",
+      "title": "Войти на выставку (Часть I)",
+      "language": "russian",
+      "objectIds": []
+    },
+    {
+      "id": "russian-part-ii",
+      "title": "Войти на выставку (Часть II)",
+      "language": "russian",
+      "objectIds": []
+    }
+  ],
+  "organizers": [
+    {
+      "name": "Edmund Herzig",
+      "affiliation": "Faculty of Oriental Studies, University of Oxford"
+    },
+    {
+      "name": "Botakoz Kassymbekova",
+      "affiliation": "University of Basel"
+    },
+    {
+      "name": "Alexander Morrison",
+      "affiliation": "New College/History Faculty, University of Oxford"
+    }
+  ],
+  "editorialBoard": [
+    { "name": "Kamoludin Abdullaev", "affiliation": "Independent Historian" },
+    { "name": "Svetlana Gorshenina", "affiliation": "CNRS/Sorbonne Université" },
+    { "name": "Edmund Herzig", "affiliation": "Faculty of Oriental Studies" },
+    { "name": "Botakoz Kassymbekova", "affiliation": "University of Basel" },
+    { "name": "Georges Khalil", "affiliation": "Forum Transregionale Studien Berlin" },
+    { "name": "Alexander Morrison", "affiliation": "New College" },
+    { "name": "François-Xavier Nerard", "affiliation": "Université Paris 1 Panthéon-Sorbonne" }
+  ],
+  "support": {
+    "translators": [
+      { "name": "Heather Stacey", "role": "Russian-English" },
+      { "name": "Irina Mironenko-Marenkova", "role": "English-Russian" }
+    ],
+    "dataInput": ["Adrienn Lawson"],
+    "sponsors": [
+      "The Oxford Nizami Ganjavi Centre",
+      "New College Ludwig Humanities Research Fund"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "xylography",
+  "slug": "xylography-typography-1423-and-after",
+  "title": "Xylography before Typography, 1423 and after",
+  "description": "[MOCK DATA - description invented for prototype] Woodblock printing (xylography) predates movable type printing. Cabinet has content about this topic in the Paper and Printing unit.",
+  "sourceType": "Historical Analysis",
+  "tags": ["printing", "xylography", "typography", "medieval"],
+  "primarySource": "Cabinet reference - details not fully scraped",
+  "images": [
+    {
+      "url": "https://images.metmuseum.org/CRDImages/dp/original/DP880247.jpg",
+      "caption": "Dance of Death, woodcut leaf from The Nuremberg Chronicle (1493) by Michael Wolgemut",
+      "credit": "The Metropolitan Museum of Art, Open Access"
+    }
+  ],
+  "unit": "Paper and Printing",
+  "paper": "Global Networks of Innovation: China, Islam and the West, 1100-1700",
+  "date": "1423",
+  "isMockData": true,
+  "imageSource": "met_museum_open_access",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/xylography-typography-1423-and-after"
+}

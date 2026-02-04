@@ -1,0 +1,28 @@
+{
+  "id": "gul-yaka",
+  "slug": "gul-yaka-turkmenistan",
+  "title": "Gül-yaka (Turkmenistan)",
+  "exhibitionId": "soviet-central-asia",
+  "country": "Turkmenistan",
+  "objectType": "Jewellery",
+  "tags": ["jewellery", "turkmenistan", "soviet symbols", "traditional craft"],
+  "description": "A silver Turkmen women's jewellery ornament, originally a collar clasp that evolved into a popular brooch or pendant. This particular piece dates to 1949, commemorating the 25th anniversary of the Turkmen Soviet Socialist Republic.",
+  "commentary": "The gül-yaka features an 1861 kopek coin soldered to the back for wearing on braided string. It is inscribed with names of all 16 Soviet republics (including the Karelo-Finnish SSR) and incorporates red-glass stars instead of traditional carnelian cabochons. The central medallion depicts hydrocarbon industry development with cotton bolls and grapes. It functions as both Soviet propaganda and traditional protective amulet against 'malevolent jinns.' The piece represents the paradox of pre-Islamic, Muslim and Soviet symbols and beliefs coexisting in one object, framed as Central Asian 'syncretism' rather than contradiction.",
+  "author": {
+    "name": "Dr. Irina Bogoslovskaya",
+    "bio": "Art historian from Tashkent; North America Curator for Cultural Legacy of Uzbekistan in World Collections Project; former Senior Research Associate, National Art Museum of Uzbekistan; author of two books on Central Asian textiles."
+  },
+  "provenance": "Bogoslovskaya-Albion collection; purchased in Almaty market (2005)",
+  "images": [
+    {
+      "url": "https://picsum.photos/seed/gulyaka/800/600",
+      "caption": "[PLACEHOLDER] Gül-yaka Turkmen jewellery ornament",
+      "credit": "Placeholder image - Original from Bogoslovskaya-Albion collection"
+    }
+  ],
+  "date": "1949",
+  "references": [],
+  "scrapedFromCabinet": true,
+  "imageSource": "placeholder",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/g-l-yaka-turkmenistan-0"
+}
