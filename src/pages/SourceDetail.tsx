@@ -1,6 +1,7 @@
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Tag, Calendar, BookOpen, ExternalLink, Image, ZoomIn, Box } from 'lucide-react';
 import { getSourceBySlug } from '../services/dataService';
+import RichText from '../components/RichText';
 import { useState } from 'react';
 import MediaViewer from '../components/MediaViewer';
 import MediaModal from '../components/MediaModal';
@@ -115,15 +116,27 @@ export default function SourceDetail() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               {viewMode === '3d' && source.model3d ? (
                 <div className="aspect-square bg-gray-900">
-                  {/* @ts-ignore */}
-                  <model-viewer
-                    src={source.model3d.url}
-                    alt={source.title}
-                    auto-rotate
-                    camera-controls
-                    shadow-intensity="1"
-                    style={{ width: '100%', height: '100%' }}
-                  />
+                  {source.model3d.url.includes('sketchfab.com/models/') ? (
+                    <iframe
+                      title={source.title}
+                      src={source.model3d.url}
+                      allow="autoplay; fullscreen; xr-spatial-tracking"
+                      allowFullScreen
+                      style={{ width: '100%', height: '100%', border: 0 }}
+                    />
+                  ) : (
+                    <>
+                      {/* @ts-ignore */}
+                      <model-viewer
+                        src={source.model3d.url}
+                        alt={source.title}
+                        auto-rotate
+                        camera-controls
+                        shadow-intensity="1"
+                        style={{ width: '100%', height: '100%' }}
+                      />
+                    </>
+                  )}
                 </div>
               ) : source.images.length > 0 ? (
                 <div className="relative group">
@@ -207,7 +220,7 @@ export default function SourceDetail() {
               <h2 className="text-lg font-semibold text-[var(--oxford-blue)]">
                 Description
               </h2>
-              <p className="text-gray-700 leading-relaxed">{source.description}</p>
+              <RichText className="text-gray-700 leading-relaxed" text={source.description} />
             </div>
 
             {/* Metadata */}

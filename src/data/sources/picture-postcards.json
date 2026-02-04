@@ -2,7 +2,7 @@
   "id": "picture-postcards",
   "slug": "picture-postcards",
   "title": "Picture postcards",
-  "description": "Picture postcards showing different places were popular choices for sending back home. For many, this was the first time they left their home town or country and it is understandable that they wanted to share what they saw.\n\nAs the war left its mark on country and town, picture postcards showing the devastating effects of war were printed. These could be seen as a form of propaganda.",
+  "description": "<p>Picture postcards showing different places were popular choices for sending back home. For many, this was the first time they left their home town or country and it is understandable that they wanted to share what they saw.</p>\n<p>As the war left its mark on country and town, picture postcards showing the devastating effects of war were printed. These could be seen as a form of propaganda.</p>",
   "sourceType": "Ephemera",
   "tags": [
     "postcards",
@@ -11,7 +11,20 @@
     "collecting"
   ],
   "primarySource": "Cabinet reference - see Jefferson R. Burdick Collection at The Met for similar examples",
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/images/sources/15800.jpg",
+      "caption": null
+    },
+    {
+      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/images/sources/pictureCard.jpg",
+      "caption": null
+    },
+    {
+      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/images/sources/postcard14042.jpg",
+      "caption": null
+    }
+  ],
   "unit": "Visual Culture",
   "paper": "Material Culture Studies",
   "date": "Late 19th century",

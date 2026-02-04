@@ -11,7 +11,12 @@
     "science"
   ],
   "primarySource": "Cabinet reference - details not fully scraped",
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/images/sources/1755_james_ayscough%20CAMERA%20OBSCURA_1.jpg",
+      "caption": null
+    }
+  ],
   "unit": "Painting and perspective: craft, art and science",
   "paper": "Nature and Art in the Renaissance",
   "date": "Renaissance period",

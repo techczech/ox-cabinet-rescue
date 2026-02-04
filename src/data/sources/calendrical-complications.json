@@ -2,7 +2,7 @@
   "id": "calendrical-complications",
   "slug": "calendrical-complications",
   "title": "Calendrical complications",
-  "description": "Cosmic rhythms\n\nToday, we think of timekeeping primarily in terms of breaking the day into hours, minutes, and seconds. But the cosmos itself posed a second difficulty: the problem of relating the celestial rhythms to one another.\n\nThe basic problem is that these cycles are not perfectly synchronised with one another. There are not an whole number of lunar months in a solar year. Nor are there a whole number of solar days in either a lunar month or a solar year.\n\nEcclesiastical complications\n\nTo these purely astronomical complexities must be added those of the ecclesiastical calendar. There is also no whole number of seven-day weeks in either a lunar month or solar year. Moreover, determining the date of a church holy day often involved combining solar, lunar, and ecclesiastical cycles in a single calculation. In the Latin West, to rake the key case, Easter falls on the first Sunday after the first full moon following the spring equinox.\n\nCalendrical complications of this time exercised medieval minds far more than the problem of mere diurnal timekeeping. And the results of their reflections are even more prominent on the faces of some medieval tower clocks than merely astronomical reckonings.\n\nExample: Rostock, 1472\n\nOne arrangement, favoured in norther Europe, was to place a properly astronomical clock face above a second dial indicating the current day, not in astronomical time, but in terms of the ecclesiastical calendar. The clock in St Mary's Church, Rostock (1472), pictured above, is one such example. The ' Horologium mirabile Lundense ' -- the 'wonderful clock in Lund', Sweden -- is an earlier example.\n\nPhoto credits : Fedor Mitschke (3 Jan. 2018 and 19 Jan. 2015) at Astronomische Ubr Rostock 1472 . Commentary . Howard Hotson (June 2025)",
+  "description": "<p><strong>Cosmic rhythms</strong></p>\n<p>Today, we think of timekeeping primarily in terms of breaking the day into hours, minutes, and seconds. But the cosmos itself posed a second difficulty: the problem of relating the celestial rhythms to one another.</p>\n<p>The basic problem is that these cycles are not perfectly synchronised with one another. There are not an whole number of lunar months in a solar year. Nor are there a whole number of solar days in either a lunar month or a solar year. </p>\n<p><strong>Ecclesiastical complications</strong></p>\n<p>To these purely astronomical complexities must be added those of the ecclesiastical calendar. There is also no whole number of seven-day weeks in either a lunar month or solar year. Moreover, determining the date of a church holy day often involved combining solar, lunar, and ecclesiastical cycles in a single calculation. In the Latin West, to rake the key case, Easter falls on the first Sunday after the first full moon following the spring equinox.</p>\n<p>Calendrical complications of this time exercised medieval minds far more than the problem of mere diurnal timekeeping. And the results of their reflections are even more prominent on the faces of some medieval tower clocks than merely astronomical reckonings.</p>\n<p><strong>Example: Rostock, 1472</strong></p>\n<p>One arrangement, favoured in norther Europe, was to place a properly astronomical clock face above a second dial indicating the current day, not in astronomical time, but in terms of the ecclesiastical calendar. The clock in St Mary's Church, Rostock (1472), pictured above, is one such example. The '<a href=\"https://en.wikipedia.org/wiki/Lund_astronomical_clock\">Horologium mirabile Lundense</a>' -- the 'wonderful clock in Lund', Sweden -- is an earlier example. </p>\n<p><strong>Photo credits</strong>: Fedor Mitschke (3 Jan. 2018 and 19 Jan. 2015) at <a href=\"https://www.aur.uni-rostock.de/en/table-of-contents/photography/views-of-the-church-and-the-clock/\">Astronomische Ubr Rostock 1472</a>.<br/>\n <br/>\n<strong>Commentary</strong>. Howard Hotson (June 2025)</p>",
   "sourceType": "Commentary",
   "tags": [
     "astronomy",
@@ -11,7 +11,12 @@
     "timekeeping"
   ],
   "primarySource": "Commentary by Howard Hotson (June 2025)",
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/images/sources/Rostock.png",
+      "caption": null
+    }
+  ],
   "unit": "Reinventing Time",
   "paper": "Global Networks of Innovation: China, Islam and the West, 1100-1700",
   "date": "1472",

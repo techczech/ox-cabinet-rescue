@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Users, BookOpen, Globe, Award } from 'lucide-react';
 import { getExhibitionBySlug, getExhibitionObjects } from '../services/dataService';
+import RichText from '../components/RichText';
 
 export default function ExhibitionDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -39,7 +40,7 @@ export default function ExhibitionDetail() {
             All Exhibitions
           </Link>
           <h1 className="text-3xl font-bold mb-4">{exhibition.title}</h1>
-          <p className="text-gray-300 max-w-3xl">{exhibition.description}</p>
+          <RichText className="text-gray-300 max-w-3xl" text={exhibition.description} />
           {exhibition.descriptionRussian && (
             <p className="text-gray-400 mt-4 max-w-3xl italic">
               {exhibition.descriptionRussian}

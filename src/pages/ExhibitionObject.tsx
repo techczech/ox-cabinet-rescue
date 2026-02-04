@@ -1,6 +1,7 @@
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Tag, Calendar, MapPin, User, BookOpen, Image, ExternalLink } from 'lucide-react';
 import { getExhibitionObjectBySlug, getExhibitionBySlug } from '../services/dataService';
+import RichText from '../components/RichText';
 import { useState } from 'react';
 
 export default function ExhibitionObject() {
@@ -142,7 +143,7 @@ export default function ExhibitionObject() {
               <h2 className="text-lg font-semibold text-[var(--oxford-blue)] mb-3">
                 Description
               </h2>
-              <p className="text-gray-700 leading-relaxed">{object.description}</p>
+              <RichText className="text-gray-700 leading-relaxed" text={object.description} />
             </div>
 
             {/* Commentary */}
@@ -150,9 +151,10 @@ export default function ExhibitionObject() {
               <h2 className="text-lg font-semibold text-[var(--oxford-blue)] mb-3">
                 Commentary
               </h2>
-              <p className="text-gray-700 leading-relaxed whitespace-pre-line">
-                {object.commentary}
-              </p>
+              <RichText
+                className="text-gray-700 leading-relaxed whitespace-pre-line"
+                text={object.commentary}
+              />
             </div>
 
             {/* Author */}

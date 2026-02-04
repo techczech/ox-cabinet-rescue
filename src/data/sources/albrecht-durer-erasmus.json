@@ -2,7 +2,7 @@
   "id": "albrecht-durer-erasmus",
   "slug": "albrecht-durer-erasmus-rotterdam-1526",
   "title": "Albrecht Dürer, Erasmus of Rotterdam (1526)",
-  "description": "Erasmus pronounced himself dissatisfied with this portrait, for which Dürer had drawn him from life long before the engraving was actually executed in 1526. And yet perhaps its insufficiency is part of its message. Dürer includes the same Greek inscription as found on Metsys’s medal, informing the viewer that Erasmus’s works are his better picture. The Greek word for ‘works’, however, excludes the letters in which so many fellow scholars encountered him, and which he is here shown writing. The open book, meanwhile, which should be his better picture, is illegible. How was it possible to really know someone, the engraving seems to ask, when the print revolution had made the world of humanist sociability more extended but more remote, and when letters were not just ways of making the absent present but also vehicles for literary personae?\n\nCredit: Oren Margolis (July 2018)",
+  "description": "<p>Erasmus pronounced himself dissatisfied with this portrait, for which Dürer had drawn him from life long before the engraving was actually executed in 1526. And yet perhaps its insufficiency is part of its message. Dürer includes the same Greek inscription as found on Metsys’s medal, informing the viewer that Erasmus’s works are his better picture. The Greek word for ‘works’, however, excludes the letters in which so many fellow scholars encountered him, and which he is here shown writing. The open book, meanwhile, which should be his better picture, is illegible. How was it possible to really know someone, the engraving seems to ask, when the print revolution had made the world of humanist sociability more extended but more remote, and when letters were not just ways of making the absent present but also vehicles for literary personae?</p>\n<p><strong>Credit:</strong> Oren Margolis (July 2018)</p>",
   "sourceType": "Engraving",
   "tags": [
     "albrecht durer",
@@ -13,12 +13,16 @@
   "primarySource": "Cabinet reference - details not fully scraped",
   "images": [
     {
-      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/styles/thumbnail__small/public/images/sources/Metsys%20Erasmus%20Medal.jpg?itok=DUtNMHkf",
+      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/images/sources/Metsys%20Erasmus%20Medal.jpg",
       "caption": "Image for Quentin Metsys, Erasmus Medal (1519)"
     },
     {
-      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/styles/thumbnail__small/public/images/sources/Erasmus%20Gilles%20Diptych.JPG?itok=Onqt0FQU",
+      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/images/sources/Erasmus%20Gilles%20Diptych.JPG",
       "caption": "Image for Quentin Metsys, Erasmus-Gilles Diptych"
+    },
+    {
+      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/images/sources/Durer%20Erasmus.jpg",
+      "caption": null
     }
   ],
   "unit": "Humanist Portraits",

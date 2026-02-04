@@ -1,11 +1,11 @@
 {
   "id": "astrolabe-demo",
   "slug": "astrolabe-demo",
-  "title": "[DEMO] Astrolabe - 3D Viewer Example",
-  "description": "THIS IS DEMO CONTENT FOR PROTOTYPE PURPOSES. This example shows how 3D models could be integrated into Cabinet. The actual Cabinet website references astrolabes from the Museum of the History of Science, Oxford, but this specific content and 3D model are placeholders to demonstrate the viewer functionality.",
-  "sourceType": "Demo Content",
-  "tags": ["demo", "3d-example", "placeholder"],
-  "primarySource": "Demo - Not from Cabinet",
+  "title": "Planispheric Astrolabe (14th century, Einbeck)",
+  "description": "A planispheric astrolabe consisting of a mater, rete, ruler, alidade, and a pin and wedge holding the elements together. The rete design uses a four-leaf clover motif supporting the equator and ecliptic. The physical object is held at the Jagiellonian University Museum (Collegium Maius, Kraków, Poland).",
+  "sourceType": "Scientific Instrument",
+  "tags": ["astrolabe", "astronomy", "instrument", "medieval", "science"],
+  "primarySource": "Jagiellonian University Museum (Collegium Maius), Kraków, Poland",
   "images": [
     {
       "url": "https://images.metmuseum.org/CRDImages/is/original/DP170386.jpg",
@@ -14,13 +14,13 @@
     }
   ],
   "model3d": {
-    "url": "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
-    "caption": "[DEMO] Placeholder 3D model (Astronaut) to demonstrate viewer - not actual Cabinet content",
-    "credit": "Google Model Viewer Demo Assets"
+    "url": "https://sketchfab.com/models/f6dac1748e964711ad4331767317d7b9/embed",
+    "caption": "Planispheric astrolabe (14th century, Einbeck) — 3D model",
+    "credit": "Virtual Museums of Małopolska; 3D model by Stanisław Ogarek; digitization by Regional Digitalisation Lab, Małopolska Institute of Culture (CC BY, Sketchfab)"
   },
-  "unit": "Demo Content",
-  "paper": "Prototype Demonstration",
-  "date": "2024 (Demo)",
-  "isMockData": true,
+  "unit": "Reinventing Time",
+  "paper": "Global Networks of Innovation: China, Islam and the West, 1100-1700",
+  "date": "14th century",
+  "isMockData": false,
   "imageSource": "met_museum_open_access"
 }

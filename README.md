@@ -1,73 +1,64 @@
-# React + TypeScript + Vite
+# Cabinet Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Prototype React app that renders Cabinet (Oxford) source/exhibition entries from local JSON, with rich text, full-size images scraped from Cabinet pages, and a 3D astrolabe demo model.
 
-Currently, two official plugins are available:
+## What’s Included
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Scraper that pulls content from `https://www.cabinet.ox.ac.uk` and replaces mock placeholders.
+- Rich HTML formatting preserved in `description`/`commentary` (paragraphs, italics, bold, links).
+- Full-size images (thumbnails normalized to originals).
+- Backfill of images by following related-source links when a page has no direct images.
+- 3D model for the astrolabe demo using a public Sketchfab embed.
 
-## React Compiler
+## Key Files
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `scripts/scrape_cabinet.py`
+  - Scrapes Cabinet pages.
+  - Normalizes images to full-size.
+  - Preserves rich HTML in descriptions.
+  - Backfills images via related-source links.
 
-## Expanding the ESLint configuration
+- `src/components/RichText.tsx`
+  - Renders HTML when present, falls back to plain text.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- `src/pages/SourceDetail.tsx`
+  - Uses `RichText` for descriptions.
+  - Supports Sketchfab embeds for 3D models.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- `src/pages/ExhibitionObject.tsx`
+  - Uses `RichText` for descriptions/commentary.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- `src/pages/ExhibitionDetail.tsx`
+  - Uses `RichText` for exhibition descriptions.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- `src/data/sources/astrolabe.json`
+  - Updated to a real 3D astrolabe model (Sketchfab embed).
+
+## Scraping Cabinet Content
+
+Run the scraper to refresh all JSON entries with `cabinetUrl`:
+
+```bash
+python scripts/scrape_cabinet.py
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+This updates:
+- `description` and `commentary` (rich HTML)
+- `tags`
+- `images`
+- `cabinetFields` (raw field data)
+- `scrapedFromCabinet`, `imageSource`, and `isMockData`
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Dev
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
+
+Hard refresh after a scrape to ensure JSON imports are reloaded.
+
+## Notes
+
+- Some Cabinet pages do not expose images directly in HTML; the scraper pulls them from `source_media` (Drupal settings) and related-source links.
+- Sketchfab embed is used for the astrolabe demo. If you need local hosting of a GLB, swap `model3d.url` to a local asset and use `<model-viewer>`.

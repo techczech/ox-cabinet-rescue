@@ -11,7 +11,12 @@
     "medieval"
   ],
   "primarySource": "Cabinet reference - details not fully scraped",
-  "images": [],
+  "images": [
+    {
+      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/images/sources/German%20woodcuts%20%201423%201460_1.png",
+      "caption": null
+    }
+  ],
   "unit": "Paper and Printing",
   "paper": "Global Networks of Innovation: China, Islam and the West, 1100-1700",
   "date": "1423",
