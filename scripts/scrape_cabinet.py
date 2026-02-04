@@ -141,6 +141,8 @@ def update_json(path: Path) -> bool:
     data["images"] = scraped.get("images", [])
     data["scrapedFromCabinet"] = True
     data["imageSource"] = "cabinet"
+    if "isMockData" in data:
+        data["isMockData"] = False
     data["cabinetFields"] = scraped.get("fields", [])
 
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

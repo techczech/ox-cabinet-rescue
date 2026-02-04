@@ -2,21 +2,56 @@
   "id": "rhinoceros-horn-cup",
   "slug": "rhinoceros-horn-cup",
   "title": "Rhinoceros-Horn Cup",
-  "description": "[MOCK DATA - description invented for prototype] Rhinoceros horn cups were prized luxury objects. Cabinet lists this item with links to the Ashmolean Museum Tradescant collection.",
+  "description": "PRESCRIBED SOURCE\n\nRhinoceros-horn cup\n\nSource: Ashmolean Museum, Accession No. 1685 B no. 465\n\nPermission. This image should not be reproduced or distributed in any form (including email, website, social media, printed publications etc.) without the express permission of the Ashmolean Museum. If any reproduction permissions are required, please contact the Ashmolean Picture Library via picture.library@ashmus.ox.ac.uk .\n\nDimensions: Height 89 mm; Diameter (max) 134 mm\n\nDescription. Carved in an oval, flaring shape to follow the natural shape of the horn, the cup is of a light brown rhinoceros-horn which is polished and translucent to show through a warm cinnamon colour. This cup is in the form of a five-petalled hibiscus flower, which is carved both inside and out with gently overlapping petals meeting in a whorl, and a central incised circle within the bowl of the cup. Outside, the stem of the blossom is carved fully in-the-round and curves down some 9 mm clear of the base of the flower, where it branches to curve around in two directions to form a steady ring base on which the cup stands. This stalk branches upward, with leaves and budding twigs to enclose the base of the large flower, so that the cup is supported by flowering tendrils in deep relief and in-the-round carving. On one side a flower faces outward and on the other a flower is shown from behind, but the placement is neither symmetrical nor a mirror image. One bud, with two leaves, extends over the lip of the cup opposite the slight spout. The edges of the horn (near the root) are not perfect and are now pitted and blackened. There is a crack down the petal at the spout, which has been carved thinner than the others.\n\nCommentary. Opinions have varied about the dating of this cup as there is no supporting evidence for a classification of such materials, although they are not uncommon. Different scholars have dated this cup to both the sixteenth and seventeenth centuries. Stylistically, and from the evidence of the Tradescant catalogue, the latter period seems more plausible. In China, and elsewhere, rhinoceros-horn (comprised of agglutinated hair) came to be accredited with supernatural properties ranging from the magical to the medicinal. Powdered horn taken with food was used as an aphrodisiac, while carved cups were used both to detect poisons and to cure cholera. By the late Ming and early Ch'ing periods (sixteenth-seventeenth century), a tradition of cup carving had already been established. There are two distinctive types of cups: one is archaistic, carved in a form reminiscent of a bronze vessel with a flat base, often with a handle and with relief dragons creeping over the surface; the other is a more informal style related to ivory and hardstone carving and is of the type represented by the piece in the Tradescant collection. The latter often takes the form of either a flower or an elaborate landscape of Taoist significance.\n\nMuseum Id. No:\n\n1656 p. 52: Cup of... rhinoceros hornes\n\n1685 B no. 465: Poculum ex Rhinocerotis cornu conflatum\n\nCredits : Abridged from M. Tregcar, 'Rhinoceros-horn cup', in Arthur MacGregor (ed.), Tradescant's Rarities: Essays on the Foundation of the Ashmolean Museum (Oxford, 1983), pp. 180-1.\n\nRelated objects . Four splendid Rhinoceros horn libation cups from eighteenth-century China can be viewed in the Ashmolean (Second floor, Room 38: China from 800). Accession numbers:",
   "sourceType": "Decorative Object",
-  "tags": ["luxury goods", "trade", "chinese art", "collecting"],
+  "tags": [
+    "luxury goods",
+    "trade",
+    "chinese art",
+    "collecting"
+  ],
   "primarySource": "Ashmolean Museum - via Cabinet",
   "images": [
     {
-      "url": "https://images.metmuseum.org/CRDImages/as/original/TR_193_2_2012_Strm1_01.jpg",
-      "caption": "Cup in Shape of Rhinoceros Horn, Qing dynasty (1644-1911), China, 18th century",
-      "credit": "The Metropolitan Museum of Art, Open Access"
+      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/styles/thumbnail__small/public/images/sources/rvodgi66h9251%20%282%29.jpg?itok=8G6vF3wJ",
+      "caption": "Image for Nikolaus Pfaff, Rhinoceros Cup"
     }
   ],
   "unit": "Global Trade and Luxury",
   "paper": "Material Culture of Exchange",
   "date": "18th century",
-  "isMockData": true,
-  "imageSource": "met_museum_open_access",
-  "cabinetUrl": "https://www.cabinet.ox.ac.uk/rhinoceros-horn-cup"
+  "isMockData": false,
+  "imageSource": "cabinet",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/rhinoceros-horn-cup",
+  "scrapedFromCabinet": true,
+  "cabinetFields": [
+    {
+      "name": "field-name-field-external-links",
+      "label": null,
+      "values": [
+        "Ashmolean Catalogue Entry"
+      ]
+    },
+    {
+      "name": "field-name-field-id-number",
+      "label": "Accession number",
+      "values": [
+        "1685 B no. 465"
+      ]
+    },
+    {
+      "name": "field-name-field-collection",
+      "label": "Collection",
+      "values": [
+        "Ashmolean Museum of Art and Archaeology, University of Oxford"
+      ]
+    },
+    {
+      "name": "field-name-body",
+      "label": null,
+      "values": [
+        "PRESCRIBED SOURCE Rhinoceros-horn cup Source: Ashmolean Museum, Accession No. 1685 B no. 465 Permission. This image should not be reproduced or distributed in any form (including email, website, social media, printed publications etc.) without the express permission of the Ashmolean Museum. If any reproduction permissions are required, please contact the Ashmolean Picture Library via picture.library@ashmus.ox.ac.uk . Dimensions: Height 89 mm; Diameter (max) 134 mm Description. Carved in an oval, flaring shape to follow the natural shape of the horn, the cup is of a light brown rhinoceros-horn which is polished and translucent to show through a warm cinnamon colour. This cup is in the form of a five-petalled hibiscus flower, which is carved both inside and out with gently overlapping petals meeting in a whorl, and a central incised circle within the bowl of the cup. Outside, the stem of the blossom is carved fully in-the-round and curves down some 9 mm clear of the base of the flower, where it branches to curve around in two directions to form a steady ring base on which the cup stands. This stalk branches upward, with leaves and budding twigs to enclose the base of the large flower, so that the cup is supported by flowering tendrils in deep relief and in-the-round carving. On one side a flower faces outward and on the other a flower is shown from behind, but the placement is neither symmetrical nor a mirror image. One bud, with two leaves, extends over the lip of the cup opposite the slight spout. The edges of the horn (near the root) are not perfect and are now pitted and blackened. There is a crack down the petal at the spout, which has been carved thinner than the others. Commentary. Opinions have varied about the dating of this cup as there is no supporting evidence for a classification of such materials, although they are not uncommon. Different scholars have dated this cup to both the sixteenth and seventeenth centuries. Stylistically, and from the evidence of the Tradescant catalogue, the latter period seems more plausible. In China, and elsewhere, rhinoceros-horn (comprised of agglutinated hair) came to be accredited with supernatural properties ranging from the magical to the medicinal. Powdered horn taken with food was used as an aphrodisiac, while carved cups were used both to detect poisons and to cure cholera. By the late Ming and early Ch'ing periods (sixteenth-seventeenth century), a tradition of cup carving had already been established. There are two distinctive types of cups: one is archaistic, carved in a form reminiscent of a bronze vessel with a flat base, often with a handle and with relief dragons creeping over the surface; the other is a more informal style related to ivory and hardstone carving and is of the type represented by the piece in the Tradescant collection. The latter often takes the form of either a flower or an elaborate landscape of Taoist significance. Museum Id. No: 1656 p. 52: Cup of... rhinoceros hornes 1685 B no. 465: Poculum ex Rhinocerotis cornu conflatum Credits : Abridged from M. Tregcar, 'Rhinoceros-horn cup', in Arthur MacGregor (ed.), Tradescant's Rarities: Essays on the Foundation of the Ashmolean Museum (Oxford, 1983), pp. 180-1. Related objects . Four splendid Rhinoceros horn libation cups from eighteenth-century China can be viewed in the Ashmolean (Second floor, Room 38: China from 800). Accession numbers: EA1957.94 (also in the form of a lotus), EA1957.95 (with trees and pavilion), EA1957.98 (with bronze-style decoration), and EAX.5287 (wooden stand, with carved decoration)"
+      ]
+    }
+  ]
 }

@@ -2,21 +2,63 @@
   "id": "albrecht-durer-erasmus",
   "slug": "albrecht-durer-erasmus-rotterdam-1526",
   "title": "Albrecht Dürer, Erasmus of Rotterdam (1526)",
-  "description": "[MOCK DATA - description invented for prototype] This engraved portrait by Albrecht Dürer depicts Erasmus. Cabinet lists this item in search results.",
+  "description": "Erasmus pronounced himself dissatisfied with this portrait, for which Dürer had drawn him from life long before the engraving was actually executed in 1526. And yet perhaps its insufficiency is part of its message. Dürer includes the same Greek inscription as found on Metsys’s medal, informing the viewer that Erasmus’s works are his better picture. The Greek word for ‘works’, however, excludes the letters in which so many fellow scholars encountered him, and which he is here shown writing. The open book, meanwhile, which should be his better picture, is illegible. How was it possible to really know someone, the engraving seems to ask, when the print revolution had made the world of humanist sociability more extended but more remote, and when letters were not just ways of making the absent present but also vehicles for literary personae?\n\nCredit: Oren Margolis (July 2018)",
   "sourceType": "Engraving",
-  "tags": ["durer", "erasmus", "portrait", "renaissance", "humanism"],
+  "tags": [
+    "albrecht durer",
+    "desiderius erasmus",
+    "erasmus of rotterdam",
+    "humanism"
+  ],
   "primarySource": "Cabinet reference - details not fully scraped",
   "images": [
     {
-      "url": "https://images.metmuseum.org/CRDImages/dp/original/DP815934.jpg",
-      "caption": "Erasmus of Rotterdam, engraving by Albrecht Dürer, 1526",
-      "credit": "The Metropolitan Museum of Art, Open Access"
+      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/styles/thumbnail__small/public/images/sources/Metsys%20Erasmus%20Medal.jpg?itok=DUtNMHkf",
+      "caption": "Image for Quentin Metsys, Erasmus Medal (1519)"
+    },
+    {
+      "url": "https://www.cabinet.ox.ac.uk/sites/default/files/styles/thumbnail__small/public/images/sources/Erasmus%20Gilles%20Diptych.JPG?itok=Onqt0FQU",
+      "caption": "Image for Quentin Metsys, Erasmus-Gilles Diptych"
     }
   ],
   "unit": "Humanist Portraits",
   "paper": "Renaissance Visual Culture",
   "date": "1526",
-  "isMockData": true,
-  "imageSource": "met_museum_open_access",
-  "cabinetUrl": "https://www.cabinet.ox.ac.uk/albrecht-d-rer-erasmus-rotterdam-1526"
+  "isMockData": false,
+  "imageSource": "cabinet",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/albrecht-d-rer-erasmus-rotterdam-1526",
+  "scrapedFromCabinet": true,
+  "cabinetFields": [
+    {
+      "name": "field-name-field-source-tags",
+      "label": null,
+      "values": [
+        "albrecht durer",
+        "desiderius erasmus",
+        "erasmus of rotterdam",
+        "humanism"
+      ]
+    },
+    {
+      "name": "field-name-field-id-number",
+      "label": "Accession number",
+      "values": [
+        "Engraving"
+      ]
+    },
+    {
+      "name": "field-name-field-collection",
+      "label": "Collection",
+      "values": [
+        "Fletcher Fund, 1919"
+      ]
+    },
+    {
+      "name": "field-name-body",
+      "label": null,
+      "values": [
+        "Erasmus pronounced himself dissatisfied with this portrait, for which Dürer had drawn him from life long before the engraving was actually executed in 1526. And yet perhaps its insufficiency is part of its message. Dürer includes the same Greek inscription as found on Metsys’s medal, informing the viewer that Erasmus’s works are his better picture. The Greek word for ‘works’, however, excludes the letters in which so many fellow scholars encountered him, and which he is here shown writing. The open book, meanwhile, which should be his better picture, is illegible. How was it possible to really know someone, the engraving seems to ask, when the print revolution had made the world of humanist sociability more extended but more remote, and when letters were not just ways of making the absent present but also vehicles for literary personae? Credit: Oren Margolis (July 2018)"
+      ]
+    }
+  ]
 }

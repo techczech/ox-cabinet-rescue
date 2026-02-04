@@ -1,22 +1,31 @@
 {
   "id": "camera-obscura",
   "slug": "camera-obscura",
-  "title": "Camera Obscura",
+  "title": "Camera obscura",
   "description": "[MOCK DATA - description invented for prototype] The camera obscura (Latin for 'dark chamber') is an optical device that projects an image of its surroundings onto a surface. Cabinet has a page about camera obscura in the context of painting and perspective.",
   "sourceType": "Optical Instrument",
-  "tags": ["optics", "renaissance", "art", "science"],
-  "primarySource": "Cabinet reference - details not fully scraped",
-  "images": [
-    {
-      "url": "https://images.pdimagearchive.org/essays/the-early-modern-camera-obscura/07-jombert1755_0173-edit.jpg",
-      "caption": "A method for drawing involving a camera obscura, from Charles-Antoine Jombert's 'Méthode pour apprendre le dessein' (1755)",
-      "credit": "Public Domain - Charles-Antoine Jombert / Public Domain Review"
-    }
+  "tags": [
+    "optics",
+    "renaissance",
+    "art",
+    "science"
   ],
+  "primarySource": "Cabinet reference - details not fully scraped",
+  "images": [],
   "unit": "Painting and perspective: craft, art and science",
   "paper": "Nature and Art in the Renaissance",
   "date": "Renaissance period",
-  "isMockData": true,
-  "imageSource": "public_domain_archive",
-  "cabinetUrl": "https://www.cabinet.ox.ac.uk/camera-obscura-3"
+  "isMockData": false,
+  "imageSource": "cabinet",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/camera-obscura-3",
+  "scrapedFromCabinet": true,
+  "cabinetFields": [
+    {
+      "name": "field-name-field-video",
+      "label": null,
+      "values": [
+        "Animate It - Camera Obscura"
+      ]
+    }
+  ]
 }

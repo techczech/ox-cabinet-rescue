@@ -1,22 +1,31 @@
 {
   "id": "picture-postcards",
   "slug": "picture-postcards",
-  "title": "Picture Postcards",
-  "description": "[MOCK DATA - description invented for prototype] Picture postcards emerged as a popular form of communication in the late 19th century. The Private Mailing Card Act of 1898 allowed independent companies to publish postcards for the first time. By the end of the 19th century, these often decorative cards were highly esteemed and avidly collected.",
+  "title": "Picture postcards",
+  "description": "Picture postcards showing different places were popular choices for sending back home. For many, this was the first time they left their home town or country and it is understandable that they wanted to share what they saw.\n\nAs the war left its mark on country and town, picture postcards showing the devastating effects of war were printed. These could be seen as a form of propaganda.",
   "sourceType": "Ephemera",
-  "tags": ["postcards", "ephemera", "communication", "collecting"],
-  "primarySource": "Cabinet reference - see Jefferson R. Burdick Collection at The Met for similar examples",
-  "images": [
-    {
-      "url": "https://images.metmuseum.org/CRDImages/dp/original/DP885318.jpg",
-      "caption": "Trade Card for Alexander Muir, Engraver - 19th century British commercial lithograph (representative example)",
-      "credit": "The Metropolitan Museum of Art, Open Access"
-    }
+  "tags": [
+    "postcards",
+    "ephemera",
+    "communication",
+    "collecting"
   ],
+  "primarySource": "Cabinet reference - see Jefferson R. Burdick Collection at The Met for similar examples",
+  "images": [],
   "unit": "Visual Culture",
   "paper": "Material Culture Studies",
   "date": "Late 19th century",
-  "isMockData": true,
-  "imageSource": "met_museum_open_access",
-  "cabinetUrl": "https://www.cabinet.ox.ac.uk/picture-postcards"
+  "isMockData": false,
+  "imageSource": "cabinet",
+  "cabinetUrl": "https://www.cabinet.ox.ac.uk/picture-postcards",
+  "scrapedFromCabinet": true,
+  "cabinetFields": [
+    {
+      "name": "field-name-body",
+      "label": null,
+      "values": [
+        "Picture postcards showing different places were popular choices for sending back home. For many, this was the first time they left their home town or country and it is understandable that they wanted to share what they saw. As the war left its mark on country and town, picture postcards showing the devastating effects of war were printed. These could be seen as a form of propaganda."
+      ]
+    }
+  ]
 }
